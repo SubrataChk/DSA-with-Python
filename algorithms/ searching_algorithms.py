@@ -61,3 +61,8 @@ def binary_search_recursive(arr, target, low, heigh):
 
 arr = [1, 3, 5, 7, 9, 11, 13]
 print(binary_search_recursive(arr, 5, 0, len(arr) - 1)) # 2
+
+
+# Time: O(log n). Space: O(log n) — recursive call stack (iterative version e eta O(1)).
+# Interview Tip: Binary search er jonno array sorted thaka must — nahole eta kaj korbe na. Interview e eta mention korte na
+# bhulo.
